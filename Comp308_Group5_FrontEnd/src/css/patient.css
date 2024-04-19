@@ -1,0 +1,49 @@
+.formContainer {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+}
+
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333; /* Matched label color with the theme */
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px; /* Increased padding for better button appearance */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease; /* Added transition effect */
+}
+
+.button:hover {
+    background-color: #000000; /* Darker shade on hover */
+}
+
+.loading {
+    margin-top: 10px;
+}
+
+.error {
+    color: #000000;
+    margin-top: 10px;
+}

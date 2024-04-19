@@ -1,0 +1,40 @@
+input, select {
+  padding: 2%;
+  border-radius: 5px; /* Increased border radius for a softer look */
+  outline: none;
+  border: 2px solid blue; /* Added 'solid' to specify border style */
+  width: 90%;
+  margin-bottom: 10px; /* Added margin bottom for spacing between inputs */
+  color: black; /* Set font color to black */
+}
+
+input:hover {
+  border-color: #61dafb; /* Changed outline color on hover */
+}
+
+.auth-form {
+  padding: 3%;
+  border-radius: 10px;
+  text-align: center;
+  width: 40%; /* Increased width for better layout */
+  margin: auto;
+  backdrop-filter: blur(10px); /* Reduced blur effect */
+  background-color: rgba(255, 255, 255, 0.5); /* Added background color with transparency */
+}
+
+.login-sub-div, .auth-form > form {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.auth-form > h2 {
+  color: blue; /* Changed text color */
+}
+
+.auth-form label {
+  color: blue; /* Changed label text color */
+}
